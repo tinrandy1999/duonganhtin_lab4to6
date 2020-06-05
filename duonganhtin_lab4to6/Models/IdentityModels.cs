@@ -23,6 +23,8 @@ namespace duonganhtin_lab4to6.Models
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
+
+
         }
 
         public static ApplicationDbContext Create()
