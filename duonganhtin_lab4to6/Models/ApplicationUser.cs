@@ -20,11 +20,11 @@ namespace duonganhtin_lab4to6.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<Category> Categories { get; set; }
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
-        //thay doi f
-
         }
 
         public static ApplicationDbContext Create()
