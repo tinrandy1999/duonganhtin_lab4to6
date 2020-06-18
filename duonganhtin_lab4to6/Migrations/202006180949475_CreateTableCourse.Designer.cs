@@ -13,7 +13,7 @@ namespace duonganhtin_lab4to6.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202006171519039_CreateTableCourse"; }
+            get { return "202006180949475_CreateTableCourse"; }
         }
         
         string IMigrationMetadata.Source
