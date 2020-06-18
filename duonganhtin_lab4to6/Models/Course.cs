@@ -20,6 +20,12 @@ namespace duonganhtin_lab4to6.Models
         public Category Category { get; set; }
         [Required]
         public byte CategoryId { get; set; }
+        public DateTime DateTime { get; internal set; }
+
+        public static implicit operator Course(Course v)
+        {
+            throw new NotImplementedException();
+        }
     }
     
 }
